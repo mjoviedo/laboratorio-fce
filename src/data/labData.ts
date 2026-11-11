@@ -1,10 +1,14 @@
 import { Article, Conference, HackdayInfo, Project, Proposal, Workshop } from '../types';
+import workspaceImg from '../assets/images/idea_lab_workspace_1793917168350.jpg';
+import immersiveVizImg from '../assets/images/idea_immersive_viz_1793917169568.jpg';
+import vintageHardwareImg from '../assets/images/idea_vintage_hardware_1793917169865.jpg';
+import workshopHackdayImg from '../assets/images/idea_workshop_hackday_1793917170379.jpg';
 
 export const LAB_IMAGES = {
-  workspace: '/src/assets/images/idea_lab_workspace_1793917168350.jpg',
-  immersiveViz: '/src/assets/images/idea_immersive_viz_1793917169568.jpg',
-  vintageHardware: '/src/assets/images/idea_vintage_hardware_1793917169865.jpg',
-  workshopHackday: '/src/assets/images/idea_workshop_hackday_1793917170379.jpg',
+  workspace: workspaceImg,
+  immersiveViz: immersiveVizImg,
+  vintageHardware: vintageHardwareImg,
+  workshopHackday: workshopHackdayImg,
 };
 
 export const WORK_LINES = [
