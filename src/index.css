@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Whitney Bold';
+  src: local('Whitney Bold'), local('Whitney-Bold'), local('WhitneyBold'), local('Whitney_Bold');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: local('Whitney'), local('Whitney-Book'), local('Whitney-Medium');
+  font-weight: 400 600;
+  font-style: normal;
+}
+
+@theme {
+  --font-heading: 'Whitney Bold', 'Whitney', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Whitney', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* User-requested Palette: Primary #B5121B & Secondaries */
+  --color-unc-primary: #B5121B;
+  --color-unc-yellow: #FFD200;
+  --color-unc-darkred: #670000;
+  --color-unc-plum: #551E41;
+  --color-unc-cyan: #00B7CE;
+  --color-unc-petrol: #005360;
+  --color-unc-orange: #F37321;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Whitney Bold', 'Whitney', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+/* Custom selection using the primary UNC red */
+::selection {
+  background-color: #B5121B;
+  color: #ffffff;
+}
+
+
